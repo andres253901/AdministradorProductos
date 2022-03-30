@@ -1,7 +1,10 @@
 package co.endava.app;
 
 
-import static org.junit.jupiter.api.Assertions.*;
+import co.endava.datos.Producto;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AdministradorProductosTest {
     @Test
@@ -34,4 +37,3 @@ class AdministradorProductosTest {
        //Double percentProduct = descuento * 100 / p3.getPrecio();
 
        // assertEquals(porcentajeControl, percentProduct);
-        }//
